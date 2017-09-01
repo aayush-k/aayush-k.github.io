@@ -402,6 +402,10 @@ section {
     border-style: solid;
 }
 
+.aboutPic {
+    height: 100;
+}
+
 /* Play Button */
 
 #video-section {
