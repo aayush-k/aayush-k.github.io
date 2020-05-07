@@ -382,9 +382,9 @@ section {
 
 }
 
-/* .resumeBG {
-    background-color: #ccc;
-} */
+.darker_bg {
+    background-color: #f8f8f8;
+}
 
 /* --------- 2.3 Buttons ---------- */
 
