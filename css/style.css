@@ -207,6 +207,82 @@ section {
     padding-bottom: 85px !important;
 }
 
+.relative {
+    position: relative;
+}
+.offset {
+    padding-top: 5vw !important;
+}
+.airbnb-logo-bg::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33%;
+    height: 100%;
+    /* padding-top: 5px; */
+    opacity: 0.05;
+    background-image: url("../images/airbnbbelo.svg");
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fb-logo-bg::before {
+    content: ' ';
+    position: absolute;
+    left: 27%;
+    top: 0;
+    width: 71%;
+    height: 100%;
+    opacity: 0.09;
+    background-image: url("../images/facebook.svg");
+    background-position-y: 132%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.amzn-logo-bg::before {
+    content: ' ';
+    position: absolute;
+    left: 68%;
+    top: 0;
+    width: 29%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url("../images/amazon-icon.svg");
+    filter: brightness(0);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.yahoo-logo-bg::before {
+    content: ' ';
+    position: absolute;
+    left: 2%;
+    top: 0;
+    width: 29%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url("../images/yahoo.svg");
+    filter: brightness(0);
+    background-position-x: center;
+    background-position-y: 39%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.language-icon {
+    filter: grayscale(1);
+    width: 100px;
+    height: 80px;
+}
+
+
 /* Targets all elements */
 
 [class*='col-'] {
@@ -222,7 +298,8 @@ section {
 
 .clearfix:after {
     content: "";
-    display: table;
+    /* display: table; */
+    display: flex;
     clear: both;
 }
 
@@ -790,7 +867,7 @@ h6 {
 .section-heading h3 {
     font-size: 14px;
     font-weight: bold;
-    color: #ccc;
+    color: #aaa;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
