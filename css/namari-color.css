@@ -13,7 +13,9 @@
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
 
-
+/* html {
+    scroll-behavior: smooth;
+} */
 body {
     background:#fff;
 }
@@ -29,6 +31,21 @@ a:hover, #header.nav-solid nav a:hover {
     color:#cf8a05;
 }
 
+/* Emphasis */
+
+b {
+    color:#cf8a05;
+}
+
+/* q {
+    line-height: 1.5rem;
+    font-style: italic;
+    color: #999;
+} */
+
+/* .resumeHeroButton {
+    scroll-behavior: smooth;
+} */
 /* Default Icon Color */
 
 .icon i {
@@ -194,21 +211,50 @@ body {
     font-family:  'Lato', sans-serif;
     font-size: 16px;
     font-weight:300;
-    color:#777;
+    color:#555;
 }
 
 /* Testimonial */
 
 .testimonial q {
     font-family:  'Lato', sans-serif;
-    font-size: 17px;
-    font-weight:300;
+    font-size: 20px;
+    font-weight:500;
+    line-height: 1.5em;
+    /* font-style: italic; */
 }
 
 .testimonial.classic q, .testimonial.classic footer {
-    color:#111;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; */
+    color: #aaa;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
+.manager-name {
+    /* font-size: 18px;
+    line-height: 2em;
+     */
+    /* font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555; */
+}
+
+.manager-subtitle {
+    /* font-size: 18px; */
+    /* color: #333;
+    line-height: 2em; */
+/*
+    font-family: 'Lato', sans-serif;
+    color: #555; */
+    /* font-size: 18px; */
+    font-weight: 300;
+    color: #555;
+}
 
 /* Standard Headings h1-h6 */
 

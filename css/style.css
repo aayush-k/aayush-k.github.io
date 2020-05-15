@@ -514,10 +514,11 @@ section {
     line-height: 71px;
     display: block;
     padding: 0 10px;
+    opacity: 0.7;
 }
 
 #header nav a:hover {
-    opacity: 0.6;
+    opacity: 1;
 }
 
 /*Navigation Solid*/
