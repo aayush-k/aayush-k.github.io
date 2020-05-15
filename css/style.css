@@ -239,7 +239,7 @@ section {
     height: 100%;
     opacity: 0.09;
     background-image: url("../images/facebook.svg");
-    background-position-y: 132%;
+    background-position-y: 115%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -255,7 +255,7 @@ section {
     background-image: url("../images/amazon-icon.svg");
     filter: brightness(0);
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: 55%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -271,7 +271,7 @@ section {
     background-image: url("../images/yahoo.svg");
     filter: brightness(0);
     background-position-x: center;
-    background-position-y: 39%;
+    background-position-y: 30%;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -852,10 +852,6 @@ h6 {
 }
 
 /* Section Headings */
-
-.section-heading {
-    padding: 0 0 15px 0;
-}
 
 .section-subtitle {
     font-size: 18px;
