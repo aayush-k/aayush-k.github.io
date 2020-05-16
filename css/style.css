@@ -1481,6 +1481,22 @@ blockquote {
 
 /* --------- 6.6 Clients ---------- */
 
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+}
+
+.icon-container:hover {
+    opacity: 1;
+
+}
+
 #clients a {
     display: block;
     text-align: center;
@@ -1491,27 +1507,14 @@ blockquote {
 }
 
 #clients img {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 15px 25px;
 }
 
-.client-overlay {
-    background: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-#clients a:hover .client-overlay {
-    opacity: 1;
-}
-
 .client-overlay span {
-    position: absolute;
+    /* position: absolute;
     top: 48%;
-    left: 0;
+    left: 0; */
     width: 100%;
     text-align: center;
     display: inline-block;
