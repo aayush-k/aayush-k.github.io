@@ -1032,6 +1032,10 @@ h6 {
     padding: 15px;
 }
 
+.appreciations_row {
+    display: inline-block;
+}
+
 blockquote {
     position: relative;
 }
