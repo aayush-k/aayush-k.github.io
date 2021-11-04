@@ -213,6 +213,23 @@ section {
 .offset {
     padding-top: 5vw !important;
 }
+.grail-logo-bg::before {
+    content: ' ';
+    position: absolute;
+    left: 68%;
+    top: 0;
+    width: 29%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url("../images/grail2.png");
+    filter: brightness(0);
+    background-position-x: center;
+    background-position-y: 55%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
 .airbnb-logo-bg::before {
     content: ' ';
     position: absolute;
